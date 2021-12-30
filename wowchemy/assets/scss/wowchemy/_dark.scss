@@ -80,15 +80,15 @@ body.dark,
   background-color: rgb(60, 62, 74);
 }
 
-.dark .portrait-title h2 {
+.dark :not(.light) .portrait-title h2 {
   color: #fff;
 }
 
-.dark .portrait-title h3 {
+.dark :not(.light) .portrait-title h3 {
   color: rgba(255, 255, 255, 0.54);
 }
 
-.dark ul.ul-edu li .description p.institution {
+.dark :not(.light) ul.ul-edu li .description p.institution {
   color: rgba(255, 255, 255, 0.6);
 }
 
